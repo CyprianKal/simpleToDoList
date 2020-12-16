@@ -1,14 +1,12 @@
-import { parseSelectorToR3Selector } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
 import {PostService} from 'src/app/services/post.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-main',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.scss']
 })
-export class AppComponent implements OnInit {
-  title = "title";
+export class MainComponent implements OnInit {
   posts: any;
   data: [];
   tutorial = {
