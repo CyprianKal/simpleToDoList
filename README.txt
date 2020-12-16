@@ -1,0 +1,1 @@
+Hi, to run app write at the same time command "npm start" in Back folder, and "ng serve" in Front folder. Have a nice day! :)
